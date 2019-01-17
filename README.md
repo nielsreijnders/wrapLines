@@ -19,7 +19,7 @@ npm i wraplines
 wrapLines(container, openingtag, closingtag);
 ```
 
-## Example
+### Example
 
 ```
 wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
