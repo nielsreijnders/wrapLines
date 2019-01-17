@@ -28,3 +28,4 @@ This library only breaks each line! You can add your own animations with by exam
 ```
 wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
 ```
+MIT © <a href="#?????portfolio_coming_soon">Niels Reijnders</a>
