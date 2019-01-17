@@ -21,7 +21,7 @@ wrapLines(container, openingtag, closingtag);
 
 **Notice**
 
-This library only breaks each line! You can add your own animations with by example css || gsap. Openingtag && closingtag can be anything. Example:
+This library only breaks each line! You can add your own animations with by example css || gsap. Openingtag && closingtag can be anything.
 
 **Example**
 
