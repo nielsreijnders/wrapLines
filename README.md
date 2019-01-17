@@ -16,5 +16,11 @@ npm i wraplines
 ## Usage
 
 ```
+wrapLines(container, openingtag, closingtag);
+```
+
+## Example
+
+```
 wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
 ```
