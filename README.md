@@ -5,7 +5,7 @@
 [![license](https://img.shields.io/npm/l/wraplines.svg)](https://github.com)
 [![dependencies](https://img.shields.io/badge/dependencies-none-ff69b4.svg)](https://github.com)
 
-Tiny library (260B) to wrap lines after every "line break" in a paragraph.
+Tiny library (218B) to wrap lines after every "line break" in a paragraph.
 
 ## Install
 
