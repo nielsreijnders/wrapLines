@@ -7,13 +7,13 @@
 
 Tiny library (218B) to wrap lines after every "line break" in a paragraph.
 
-## Install
+### Install
 
 ```
 npm i wraplines
 ```
 
-## Usage
+### Usage
 
 ```
 wrapLines(container, openingtag, closingtag);
