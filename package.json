@@ -1,6 +1,6 @@
 {
     "name": "wraplines",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "wraps each line in a paragraph in an element",
     "license": "MIT",
     "repository": "nielsreijnders/WrapLines",
@@ -10,7 +10,7 @@
         "tiny",
         "npm",
         "package",
-        "WrapLines"
+        "wraplines"
     ],
     "devDependencies": {
         "http-server": "^0.11.1",
