@@ -23,7 +23,7 @@ wrapLines(container, openingtag, closingtag);
 
 This library only breaks each line! You can add your own animations with by example css || gsap. Openingtag && closingtag can be anything. Example:
 
-### Example
+**Example**
 
 ```
 wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
