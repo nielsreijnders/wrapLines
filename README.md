@@ -16,5 +16,5 @@ npm i wraplines
 ## Usage
 
 ```
-wrapLines(document.getElementById("container"), "<span><div><section><thisiscoolhuh>", "</span></div></section></thisiscoolhuh>");
+wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
 ```
