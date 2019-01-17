@@ -6,3 +6,6 @@
 [![dependencies](https://img.shields.io/badge/dependencies-none-ff69b4.svg)](https://github.com)
 
 Tiny library (260B) to wrap lines after every "line break" in a paragraph.
+
+## Install
+
