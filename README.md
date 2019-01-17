@@ -29,7 +29,9 @@ This library only breaks each line! You can add your own animations with by exam
 wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
 ```
 
-### To do;)
+
+
+### To dos
 
 - [ ] Add resize option
 
