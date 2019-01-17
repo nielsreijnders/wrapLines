@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WrapLines.js</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" integrity="sha256-AJvwDTgx+2JZWtsg4XDtKI2KFXST+2AosYiLBYde2PM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js" integrity="sha256-hDU1pRrmRAcQQgrQqLnXkmix6iw43smaA5KgxJBjG6o=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="content">
+        <h1 id="introduction">
+            WrapLines.js 📝
+        </h1>
+        <p class="description">
+            Tiny library (260B) to wrap lines after every "line break" in a paragraph. 
+        </p>
+        <h2 id="usage">
+            Usage
+        </h2>
+        <p>
+            <span class="usage"><span style="color: #34495e">wrapLines</span><span style="color: #95a5a6">(</span><span style="color: #FDA7DF"><em>container</em><span style="color: #95a5a6">,</span> <em>openingtag</em><span style="color: #95a5a6">,</span> <em>closingtag</em></span><span style="color: #95a5a6">)</span></span>
+        </p>
+        <h4 id="notice">
+            Notice:
+        </h4>
+        <p>
+            This library only breaks each line! You can add your own animations with by example css <em>||</em> gsap.
+            Openingtag <em>&&</em> closingtag can be anything. Example:<br>
+            <span class="usage"><span style="color: #34495e">var</span> <span style="color: #16a085">openingtag</span> <span style="color: #95a5a6">= '&lt;</span><span style="color: #FDA7DF">div</span><span style="color: #95a5a6">>&lt;</span><span style="color: #FDA7DF">span</span><span style="color: #95a5a6">>&lt;</span><span style="color: #FDA7DF">section</span><span style="color: #95a5a6">>&lt;</span><span style="color: #FDA7DF">thisiscoolhuh?</span><span style="color: #95a5a6">>' <em>// has to be a string btw;)</em></span><br><span style="color: #95a5a6"><em>//Now do the same for the closing tag. </em></span></span>
+            Oh and please don't forget to close them correctly. You also have to make your own resize function maybe I add that in the futuru. 
+        </p>
+        <h2>
+            Example
+        </h2>
+        <h4>
+            🏌️‍♀️ Fade in: 
+        </h4>
+        <p id="fadeIn">
+            Ex culpa exercitation ex est ullamco voluptate. Consequat ad magna laborum Lorem tempor nulla. In et consequat irure deserunt excepteur dolore nisi in est incididunt. Sunt nostrud nostrud ipsum esse sunt aliqua incididunt ea minim duis. Mollit laboris aliquip ipsum reprehenderit fugiat Lorem. Aliqua minim magna pariatur deserunt amet. Cupidatat voluptate velit sunt ipsum eiusmod et ipsum amet et laboris et exercitation fugiat. Excepteur duis laborum nulla laboris aliqua ipsum cillum. Occaecat enim consequat qui duis ea sint eu ut. Tempor duis cillum sunt duis excepteur cupidatat ea consequat veniam sunt labore consectetur ea dolore.
+        </p>
+        <p>
+            <span class="usage"><span style="color: #34495e">wrapLines</span><span style="color:#95a5a6">(</span><span style="color: #16a085">document</span>.<span style="color: #8e44ad">getElementById</span><span style="color:#FDA7DF"><span style="color:#95a5a6">('</span>fadeIn<span><span style="color:#95a5a6">'), '&lt;</span>span<span style="color:#95a5a6">>', '&lt;/</span>span<span style="color:#95a5a6">>');</span></span></span><br><span style="color:#95a5a6"><em>// I'm going to use GSAP for the examples, since that is the easiest option fow now.</em></span></span>
+        </p>
+        <h4>
+            🏌️‍♀️ Overflow hidden:
+        </h4>
+        <p id="overflow">
+            Ex culpa exercitation ex est ullamco voluptate. Consequat ad magna laborum Lorem tempor nulla. In et consequat irure deserunt excepteur dolore nisi in est incididunt. Sunt nostrud nostrud ipsum esse sunt aliqua incididunt ea minim duis. Mollit laboris aliquip ipsum reprehenderit fugiat Lorem. Aliqua minim magna pariatur deserunt amet. Cupidatat voluptate velit sunt ipsum eiusmod et ipsum amet et laboris et exercitation fugiat. Excepteur duis laborum nulla laboris aliqua ipsum cillum. Occaecat enim consequat qui duis ea sint eu ut. Tempor duis cillum sunt duis excepteur cupidatat ea consequat veniam sunt labore consectetur ea dolore.
+        </p>
+        <p>
+            <span class="usage"><span style="color: #34495e">wrapLines</span><span style="color:#95a5a6">(</span><span style="color: #16a085">document</span>.<span style="color: #8e44ad">getElementById</span><span style="color:#FDA7DF"><span style="color:#95a5a6">('</span>fadeIn<span><span style="color:#95a5a6">'), '&lt;</span>span<span style="color:#95a5a6">>', '&lt;/</span>span<span style="color:#95a5a6">>');</span></span></span><br><span style="color:#95a5a6"><em>// I'm going to use GSAP for the examples, since that is the easiest option fow now.</em></span></span>
+        </p>
+        <h4>
+            🏌️‍♀️ SkewY:
+        </h4>
+        <p id="skewy">
+            Ex culpa exercitation ex est ullamco voluptate. Consequat ad magna laborum Lorem tempor nulla. In et consequat irure deserunt excepteur dolore nisi in est incididunt. Sunt nostrud nostrud ipsum esse sunt aliqua incididunt ea minim duis. Mollit laboris aliquip ipsum reprehenderit fugiat Lorem. Aliqua minim magna pariatur deserunt amet. Cupidatat voluptate velit sunt ipsum eiusmod et ipsum amet et laboris et exercitation fugiat. Excepteur duis laborum nulla laboris aliqua ipsum cillum. Occaecat enim consequat qui duis ea sint eu ut. Tempor duis cillum sunt duis excepteur cupidatat ea consequat veniam sunt labore consectetur ea dolore.
+        </p>
+        <p>
+            <span class="usage"><span style="color: #34495e">wrapLines</span><span style="color:#95a5a6">(</span><span style="color: #16a085">document</span>.<span style="color: #8e44ad">getElementById</span><span style="color:#FDA7DF"><span style="color:#95a5a6">('</span>fadeIn<span><span style="color:#95a5a6">'), '&lt;</span>span<span style="color:#95a5a6">>', '&lt;/</span>span<span style="color:#95a5a6">>');</span></span></span><br><span style="color:#95a5a6"><em>// I'm going to use GSAP for the examples, since that is the easiest option fow now.</em></span></span>
+        </p>
+    </div>
+    <script src="./dist/bundle.umd.js"></script>
+  </body>
+</html>
