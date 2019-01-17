@@ -12,3 +12,15 @@ Tiny library (218B) to wrap lines after every "line break" in a paragraph.
 ```
 npm i wraplines
 ```
+
+## Usage
+
+```
+wrapLines(container, openingtag, closingtag);
+```
+
+### Example
+
+```
+wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
+```
