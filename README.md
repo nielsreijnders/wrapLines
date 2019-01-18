@@ -16,6 +16,7 @@ npm i wraplines
 ### Usage
 
 ```
+import wrapLines from 'wraplines'; 
 wrapLines(container, openingtag, closingtag);
 ```
 
