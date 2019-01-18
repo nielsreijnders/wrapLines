@@ -1,36 +1,40 @@
-# WrapLines
+# WrapLines 📖
 
-[![npm version](https://img.shields.io/npm/v/wraplines.svg)](https://www.npmjs.com/package/wraplines)
-[![gzip size](http://img.badgesize.io/https://unpkg.com/wraplines/dist/wrapLines.mjs?compression=gzip)](https://unpkg.com/wraplines)
-[![license](https://img.shields.io/npm/l/wraplines.svg)](https://github.com/nielsreijnders/wrapLines/blob/master/LICENSE)
-[![dependencies](https://img.shields.io/badge/dependencies-none-ff69b4.svg)](https://github.com)
+[![npm version](https://img.shields.io/npm/v/wraplines.svg?style=for-the-badge&colorB=%23000)](https://www.npmjs.com/package/wraplines)
+[![license](https://img.shields.io/npm/l/wraplines.svg?style=for-the-badge&colorB=%23000)](https://github.com/nielsreijnders/wrapLines/blob/master/LICENSE)
+[![dependencies](https://img.shields.io/badge/dependencies-none-ff69b4.svg?style=for-the-badge&colorB=%23000)](https://github.com)
+[![gzip size](http://img.badgesize.io/https://unpkg.com/wraplines/dist/wrapLines.mjs?colorB=black&compression=gzip&style=for-the-badge)](https://unpkg.com/wraplines)
 
-Tiny library (218B) to wrap lines after every "line break" in a paragraph.
+ Tiny library to wrap lines after every "line break" in a paragraph.
 
-### Install
+##### Install
 
+```js
+npm install wraplines --save
 ```
-npm i wraplines
-```
 
-### Usage
+##### Usage
 
-```
+```js
+import wrapLines from 'wraplines';
+
+//Openingtag & closingtag has to be a string
 wrapLines(container, openingtag, closingtag);
 ```
 
-**Notice**
+##### Notice
 
-This library only breaks each line! You can add your own animations with by example css || gsap. Openingtag && closingtag can be anything.
+> This library only breaks each line! You can add your own animations with by example css or gsap.
 
-**Example**
+##### Example
 
-```
+```js
 wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
 ```
 
-### To dos
+##### To dos
 
-- [ ] Add resize option
+- [ ] resize option
+- [ ] option to also split words/characters
 
-MIT © <a href="#?????portfolio_coming_soon">Niels Reijnders</a>
+###### MIT © <a href="#?????portfolio_coming_soon">Niels Reijnders</a>
