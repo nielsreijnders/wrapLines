@@ -31,6 +31,8 @@ wrapLines(container, openingtag, closingtag);
 ```js
 wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
 ```
+###### So you don't have to run the demo :p
+
 ![example.gif](https://media.giphy.com/media/dnwWorWLjmcvsl4vep/giphy.gif)
 
 ##### To dos
