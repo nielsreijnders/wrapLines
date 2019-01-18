@@ -1,4 +1,4 @@
-export default function wrapLines(container, opentag, closingtag) {
+export default wrapLines = (container, opentag, closingtag) => {
         
     container.innerHTML = container.textContent.replace(/\S+/g, '<n>$&</n>');     
 
