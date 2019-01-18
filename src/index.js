@@ -1,6 +1,6 @@
 export default function wrapLines(container, opentag, closingtag) {
         
-    wrapWords = (str, tmpl) => str.replace(/\S+/g, tmpl || "<n>$&</n>");
+    wrapWords = (str, tmpl) => str.replace(/\S+/g, tmpl || '<n>$&</n>');
 
     container.innerHTML = (wrapWords(container.textContent)); 
 
