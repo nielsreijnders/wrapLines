@@ -33,7 +33,7 @@ wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span
 ```
 ###### So you don't have to run the demo :p
 
-![example.gif](https://media.giphy.com/media/dnwWorWLjmcvsl4vep/giphy.gif)
+![example.gif](https://media.giphy.com/media/jxchZz0EDhQ7QmYEwD/giphy.gif)
 
 ##### To dos
 
