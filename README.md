@@ -22,15 +22,18 @@ import wrapLines from 'wraplines';
 wrapLines(container, openingtag, closingtag);
 ```
 
-##### Notice
-
-> This library only breaks each line! You can add your own animations with by example css or gsap.
-
 ##### Example
 
 ```js
 wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
 ```
+###### So you don't have to run the demo :p
+
+![example.gif](https://media.giphy.com/media/jxchZz0EDhQ7QmYEwD/giphy.gif)
+
+##### Notice
+
+> This library only breaks each line! You can add your own animations with by example css or gsap.
 
 ##### To dos
 
