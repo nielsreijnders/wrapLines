@@ -1,6 +1,6 @@
 {
     "name": "wraplines",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "description": "wraps each line in a paragraph in an element",
     "license": "MIT",
     "repository": "nielsreijnders/WrapLines",
