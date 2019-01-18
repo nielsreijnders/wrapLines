@@ -1,6 +1,6 @@
 {
     "name": "wraplines",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "wraps each line in a paragraph in an element",
     "license": "MIT",
     "repository": "nielsreijnders/WrapLines",
@@ -23,7 +23,6 @@
         "prepare": "$npm_execpath run build"
     },
     "files": [
-        "src",
         "dist"
     ]
 }
