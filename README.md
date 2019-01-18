@@ -5,7 +5,7 @@
 [![dependencies](https://img.shields.io/badge/dependencies-none-ff69b4.svg?style=for-the-badge&colorB=%23000)](https://github.com)
 [![gzip size](http://img.badgesize.io/https://unpkg.com/wraplines/dist/wrapLines.mjs?colorB=black&compression=gzip&style=for-the-badge)](https://unpkg.com/wraplines)
 
- Tiny library to wrap lines after every "line break" in a paragraph.
+ Tiny library to wrap lines after every "line break" in a paragraph. 
 
 ##### Install
 
