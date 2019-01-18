@@ -1,14 +1,12 @@
 export default function wrapLines(container, opentag, closingtag) {
         
-    wrapWords = (str, tmpl) => {
-        return str.replace(/\S+/g, tmpl || "<n>$&</n>"); 
-    }
+    wrapWords = (str, tmpl) => str.replace(/\S+/g, tmpl || "<n>$&</n>");
 
     container.innerHTML = (wrapWords(container.textContent)); 
 
     var spans = container.children, 
-    top = 0,
-    tmp = '';
+        top = 0,
+        tmp = '';
 
     for (let i = 0; i < spans.length; i++) {
 
