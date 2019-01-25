@@ -1,8 +1,8 @@
-export default function wrapLines(container, opentag, closingtag) {       
-    container.innerHTML = container.textContent.replace(/\S+/g, '<n>$&</n>');     
+export default function wrapLines(container, opentag, closingtag) {  
     var spans = container.children,
         top = 0,
-        tmp = opentag;
+        tmp = opentag;  
+    container.innerHTML = container.textContent.replace(/\S+/g, '<n>$&</n>');     
     for (let i = 0; i < spans.length; i++) {
         var rect = spans[i].getBoundingClientRect().top;
         if (top < rect) {
@@ -10,7 +10,6 @@ export default function wrapLines(container, opentag, closingtag) {
             top = rect;
         } 
         tmp += spans[i].textContent + ' ';   
-    }    
-    tmp += closingtag;
-    container.innerHTML = tmp;
+    } 
+    container.innerHTML = tmp += closingtag;
 }
