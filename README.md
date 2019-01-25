@@ -25,7 +25,7 @@ wrapLines(container, openingtag, closingtag);
 ##### Example
 
 ```js
-wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</span></thisiscoolhuh>");
+wrapLines(document.getElementById("container"), "<span><thisiscoolhuh>", "</thisiscoolhuh></span>");
 ```
 ###### So you don't have to run the demo :p
 
