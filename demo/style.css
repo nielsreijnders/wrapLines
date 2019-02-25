@@ -52,7 +52,7 @@ a:hover {
 }
 
 #fadeIn span, #overflow span, #skewy span {
-    display: block;
+    display: inline-block;
 }
 
 #fadeIn, #overflow, #skewy {
