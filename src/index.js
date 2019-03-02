@@ -1,7 +1,7 @@
 export default function wrapLines(container, opentag, closingtag) {  
     var spans = container.children,
         top = 0,
-        tmp = opentag;  
+        tmp = ' ';  
     container.innerHTML = container.textContent.replace(/\S+/g, '<n>$&</n>');     
     for (let i = 0; i < spans.length; i++) {
         var rect = spans[i].getBoundingClientRect().top;

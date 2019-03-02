@@ -5,7 +5,7 @@ var fadein = document.getElementById('fadeIn'),
     skewY = document.getElementById('skewy');
 
 //For the fadeIn
-wrapLines(fadein, '<span>', '</span>');
+wrapLines(fadein, '<span><grhu>', '</grhu></span>');
 //For the overflow
 wrapLines(overflow, '<div><span>', '</div></span>');
 //For the skewY
